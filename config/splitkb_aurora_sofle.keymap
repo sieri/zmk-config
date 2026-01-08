@@ -35,7 +35,7 @@
                  &kp RCTRL &kp LALT &kp LGUI &mo 1  &kp SPACE  &kp SPACE  &mo 2  &kp BSPC &kp RGUI  &kp RALT
             >;
 
-            sensor-bindings = <&inc_dec_kp LEFT RIGHT, &inc_dec_kp UP DOWN>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp UP DOWN>;
         };
 
         lower_layer {
