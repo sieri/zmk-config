@@ -26,8 +26,6 @@
                 = <&macro_tap &to 4 &rgb_ug RGB_COLOR_HSB(50,100,10)>
                 ;
         };
-    };
-    macros {
         game_mode_exit: game_mode_exit{
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
