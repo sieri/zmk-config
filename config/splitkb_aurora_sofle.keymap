@@ -23,14 +23,14 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &to 4 &rgb_ug RGB_COLOR_HSB(50,100,10)>
+                = <&macro_tap &to 3 &rgb_ug RGB_COLOR_HSB(50,100,10)>
                 ;
         };
         game_mode_exit: game_mode_exit{
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &to 0 &rgb_ug RGB_COLOR_HSB(20,100,10)>
+                = <&macro_tap &to 0 &rgb_ug RGB_COLOR_HSB(10,100,10)>
                 ;
         };
     };
